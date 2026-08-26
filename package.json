@@ -1,0 +1,10 @@
+{
+  "name": "fixture-repo-ad",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Disposable fixture repository for the independent review service e2e suite",
+  "scripts": {
+    "test": "node --test"
+  }
+}
