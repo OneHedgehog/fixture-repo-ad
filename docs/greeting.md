@@ -11,6 +11,7 @@ Returns a greeting addressed to `name`.
 | Input | Result |
 |---|---|
 | `greet("Ada")` | `Hello, Ada!` |
+| `greet("Ada", { punctuation: "?" })` | `Hello, Ada?` |
 | `greet("Ada", { formal: true })` | `Good day, Ada.` |
 | `greet("")`, `greet("   ")`, non-string | Throws `TypeError` |
 
