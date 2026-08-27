@@ -18,7 +18,7 @@ export function greet(name, options = {}) {
     throw new TypeError("greet: name is required and must be a non-empty string");
   }
 
-  return options.formal === true ? `Good day, ${name}.` : `Hello, ${name}!`;
+  return options.formal === true ? `Good day, ${options.title ?? ""}${name}.` : `Hello, ${name}!`;
 }
 
 /**
