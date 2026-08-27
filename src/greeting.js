@@ -29,7 +29,7 @@ export function greet(name, options = {}) {
  */
 export function formatList(names) {
   if (!Array.isArray(names)) {
-    throw new TypeError("formatList: names must be an array");
+    throw new TypeError("formatList: names must be an array, received a non-array");
   }
   if (names.length === 0) {
     return "";
