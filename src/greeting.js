@@ -44,4 +44,4 @@ export function formatList(names) {
   return `${names.slice(0, -1).join(", ")}, and ${names[names.length - 1]}`;
 }
 
-export const VERSION = "1.0.0";
+export const VERSION = "1.1.0";
