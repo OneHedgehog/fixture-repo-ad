@@ -27,7 +27,7 @@ export function greet(name, options = {}) {
  * @param {readonly string[]} names
  * @returns {string}
  */
-export function formatList(names) {
+export function formatList(names /* the list to render */) {
   if (!Array.isArray(names)) {
     throw new TypeError("formatList: names must be an array");
   }
