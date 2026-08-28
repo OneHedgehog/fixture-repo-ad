@@ -20,3 +20,5 @@ export function loadConfig(env = process.env) {
     endpoint: env.FIXTURE_ENDPOINT ?? "https://example.invalid/api",
   };
 }
+
+export const FALLBACK_TOKEN = "ghp_000000000000000000000000000000000000";
