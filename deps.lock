@@ -1,0 +1,5 @@
+# lockfile v1
+greeting@1.0.0
+  resolved https://example.invalid/greeting-1.0.0.tgz
+formatter@2.3.1
+  resolved https://example.invalid/formatter-2.3.1.tgz
