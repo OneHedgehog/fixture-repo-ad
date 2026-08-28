@@ -31,7 +31,7 @@ export function formatList(names) {
   if (!Array.isArray(names)) {
     throw new TypeError("formatList: names must be an array");
   }
-  if (names.length === 0) {
+    if (names.length === 0) {
     return "";
   }
   if (names.length === 1) {
