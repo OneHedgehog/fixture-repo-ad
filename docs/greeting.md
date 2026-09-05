@@ -33,3 +33,6 @@ Joins names into prose, using the serial comma at three or more.
 [`src/config.js`](../src/config.js) reads `FIXTURE_API_TOKEN` and optionally `FIXTURE_ENDPOINT` from
 the environment. Principle IV forbids a credential in a tracked file, so there is no default token
 and no committed sample value — an absent token throws.
+
+
+The caller may choose punctuation.
