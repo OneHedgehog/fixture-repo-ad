@@ -32,3 +32,7 @@ test("loadConfig reads the token from the environment", () => {
   assert.equal(config.apiToken, "not-a-real-token");
   assert.equal(config.endpoint, "https://example.invalid/api");
 });
+
+test("greet takes the caller's punctuation", () => {
+  assert.equal(greet("Ada", { punctuation: "?" }), "Hello, Ada?");
+});
